@@ -1,0 +1,12 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+1. I learned about <figure> and <figcaption>, which I had never used before. I also learned that <s> for strikethrough is valid over <strike>. I am learning about Github and Codepen too.
+2. Much of the this has been easy, due to prior experience.
+3. It has been difficult to stay focused at times because I am already familiar with these concepts, but I know a strong foundation is important.
+4. I haven't used them much yet, but I'm sure I will soon.
