@@ -1,0 +1,24 @@
+* {}
+
+body {margin:0;font-size:14px;font-family:"Open Sans",sans-serif;}
+header {text-align:center;background:cornflowerblue;border-bottom:3px solid rgb(90, 134, 213);padding:15px;margin-bottom:10px;min-height:30px;}
+nav {display:flex;margin:0 0 15px 0;padding:0 15px;justify-content:center;}
+section {padding:0 15px;}
+footer {color:white;background:cornflowerblue;border-top:3px solid rgb(90, 134, 213);padding:10px;margin-top:35px;min-height:20px}
+
+.card {display:inline-block;max-width:300px;border:1px solid grey;padding:5px 15px;box-shadow:5px 5px rgba(128, 128, 128, 0.15);border-radius:6px;margin:15px;}
+.animal-img {max-width:300px;}
+.animal-info {max-width:300px;border:1px solid lightgrey;margin:15px 0;padding:0 12px;box-sizing:border-box;}
+.fact-list {list-style-type:none;padding-left:0;}
+.label {font-weight:bold;}
+
+a, a:active, a:visited, a:hover {text-decoration:none;}
+nav > a {font-size:1.1em;color:grey;border:2px solid grey;margin-left:5px;margin-right:5px;padding:8px;}
+nav > a:hover, nav > a:active {color:white;border:2px solid transparent;background:cornflowerblue;}
+
+h1 {color:white;font-size:4.5em;margin:0 0 10px 0;}
+h2 {font-size:3.5em;border-bottom:15px solid cornflowerblue;}
+
+h1, h2 {font-family:"Just Me Again Down Here",cursive;}
+h1, h2, h3 {font-weight:normal;}
+h2, h3 {margin:10px 0;}
