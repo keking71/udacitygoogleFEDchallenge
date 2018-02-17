@@ -10,8 +10,10 @@
 // change the value of `number` to test your if...else statement
 var number = 2;
 
-if (number % 2 === 0) { //If the number is divisible by 2...
-  console.log('even'); //Then the number is even
+var remainder = number % 2;
+
+if (remainder === 0) { //if the number is divisible by 2...
+  console.log('even');
 } else {
-  console.log('odd'); //Otherwise, it's odd
+  console.log('odd');
 }
