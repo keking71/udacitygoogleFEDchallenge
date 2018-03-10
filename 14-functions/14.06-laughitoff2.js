@@ -9,8 +9,8 @@
  */
  function laugh(num){
    var msg = "";
-   for (var i = 1; i <= num; i++){
-     msg = msg + "ha";
+   for (var i = 1; i <= num; i++){ //for as long as the count is less than or equal to the value given
+     msg = msg + "ha"; //append a laugh
    }
    return msg + "!";
  }
