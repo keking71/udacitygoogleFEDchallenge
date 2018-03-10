@@ -21,12 +21,12 @@ var numbers = [
 ];
 
 // your code goes here
-for (row = 0; row < numbers.length; row++){
-  for (column = 0; column < numbers[row].length; column++){
-    if (numbers[row][column] % 2 === 0){
-      numbers[row][column] = "even";
+for (row = 0; row < numbers.length; row++){ //do on every row, as long as the row # is less than the length of the array
+  for (column = 0; column < numbers[row].length; column++){ //do on every column, as long as the column # is less than the length of the array
+    if (numbers[row][column] % 2 === 0){ //if the specific value at row,column is divisible by 2 evenly
+      numbers[row][column] = "even"; //replace value with Even
     } else {
-      numbers[row][column] = "odd";
+      numbers[row][column] = "odd"; //otherwise replace value with Odd
     }
   }
 }

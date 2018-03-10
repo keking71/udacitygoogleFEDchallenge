@@ -3,12 +3,12 @@
  */
 
 // your code goes here
-function hasEnoughPlayers(x) {
-  var count = x.length;
-  if (count >= 7) {
-    return true;
+function hasEnoughPlayers(x) { //check if there are enough players
+  var count = x.length; //grab the length of the player array
+  if (count >= 7) { //if there are at least 7 players
+    return true; //we have enough players
   } else {
-    return false;
+    return false; //otherwise, there aren't enough players
   }
 }
 

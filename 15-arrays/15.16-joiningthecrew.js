@@ -16,6 +16,6 @@ var sister = "River";
 var shepherd = "Book";
 
 // your code goes here
-crew.push(doctor, sister, shepherd);
+crew.push(doctor, sister, shepherd); //add values to the end of the array
 
 console.log(crew);
